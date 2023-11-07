@@ -39,12 +39,82 @@ body {
 .whitebox {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   background-color: white;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   height: 320px;
   width: 225px;
+  padding: 0px 10px 0px 10px;
+}
+
+.summary {
+  margin-left: 8px;
+}
+
+.lightred {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsla(0, 100%, 67%, 0.247);
+  color: hsl(0, 100%, 67%);
+  border-radius: 5px;
+  height: 30px;
+  margin: 0.5rem;
+  font-size: 13px;
+}
+
+.lightredFP {
+  display: flex;
+}
+
+
+.orangeyellow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsla(39, 100%, 56%, 0.308);
+  color: hsl(39, 100%, 56%);
+  border-radius: 5px;
+  height: 30px;
+  margin: 0.5rem;
+  font-size: 13px;
+}
+
+.orangeyellowFP {
+  display: flex;
+}
+
+
+.greenteal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsla(166, 100%, 37%, 0.288);
+  color: hsl(166, 100%, 37%);
+  border-radius: 5px;
+  height: 30px;
+  margin: 0.5rem;
+  font-size: 13px;
+}
+
+.greentealFP {
+  display: flex;
+}
+
+.cobaltblue {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:hsla(234, 85%, 45%, 0.288);
+  color: hsl(234, 85%, 45%);
+  border-radius: 5px;
+  height: 30px;
+  margin: 0.5rem;
+  font-size: 13px;
+}
+
+.cobaltblueFP {
+  display: flex;
 }
 
 .whitebox p {
@@ -78,7 +148,7 @@ body {
 }
 
 .greattext {
-font-size: 13px;
+  font-size: 13px;
 }
 
 .greatbox {
@@ -94,7 +164,14 @@ font-size: 13px;
 }
 
 button {
-  border-radius: 10px;
-  background-color: hsl(224, 30%, 27%)
+  border-radius: 25px;
+  background-color: hsl(224, 30%, 27%);
+  border: none;
+  padding: 0px;
+  width: 200px;
+  margin: 0.7rem;
 }
 
+button p {
+  color: white;
+}
