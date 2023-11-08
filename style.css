@@ -17,8 +17,10 @@ body {
   align-items: center;
 }
 
+
 .container {
   display: flex;
+  background-color: white;
 }
 
 .bluebox {
@@ -49,6 +51,7 @@ body {
 
 .summary {
   margin-left: 8px;
+  margin-top: 20px;
 }
 
 .lightred {
@@ -65,8 +68,18 @@ body {
 
 .lightredFP {
   display: flex;
+  align-self: center;
+  margin-left: 8px;
 }
 
+.lightredFP p {
+  margin-left: 5px;
+}
+
+.lightredSP {
+  margin-right: 8px;
+  color: hsl(224, 30%, 27%);
+}
 
 .orangeyellow {
   display: flex;
@@ -82,6 +95,17 @@ body {
 
 .orangeyellowFP {
   display: flex;
+  align-self: center;
+  margin-left: 8px;
+}
+
+.orangeyellowFP p {
+  margin-left: 5px;
+}
+
+.orangeyellowSP {
+  margin-right: 8px;
+  color: hsl(224, 30%, 27%);
 }
 
 
@@ -99,13 +123,24 @@ body {
 
 .greentealFP {
   display: flex;
+  align-self: center;
+  margin-left: 8px;
+}
+
+.greentealFP p {
+  margin-left: 5px;
+}
+
+.greentealSP {
+  margin-right: 8px;
+  color: hsl(224, 30%, 27%);
 }
 
 .cobaltblue {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color:hsla(234, 85%, 45%, 0.288);
+  background-color: hsla(234, 85%, 45%, 0.288);
   color: hsl(234, 85%, 45%);
   border-radius: 5px;
   height: 30px;
@@ -115,6 +150,17 @@ body {
 
 .cobaltblueFP {
   display: flex;
+  align-self: center;
+  margin-left: 8px;
+}
+
+.cobaltblueFP p {
+  margin-left: 5px;
+}
+
+.cobaltblueSP {
+  margin-right: 8px;
+  color: hsl(224, 30%, 27%);
 }
 
 .whitebox p {
@@ -169,7 +215,7 @@ button {
   border: none;
   padding: 0px;
   width: 200px;
-  margin: 0.7rem;
+  margin: 1rem;
 }
 
 button p {
